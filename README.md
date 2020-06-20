@@ -1,0 +1,1 @@
+# ashirokuwaterpark.github.io
