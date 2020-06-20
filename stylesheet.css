@@ -11,11 +11,11 @@ body {
 }
 
 .top-wrapper {
-  padding: 200px 0 300px 0;
+  padding: 200px 50px 300px 0;
   background-image: url("https://data.1freewallpapers.com/detail/swimming-pool.jpg");
   background-size: cover;
   color: #F8F8FF;
-  text-align: center;
+  text-align: right;
 }
 
 .top-wrapper h1 {
@@ -27,6 +27,7 @@ body {
 .top-wrapper p {
   opacity: 0.8;
   margin-bottom: 3px;
+  padding-right: 70px;
   font-style: oblique;
   font-size: 45px;
 }
