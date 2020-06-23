@@ -1,33 +1,300 @@
-body {
-  margin: 0;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+* {
+  box-sizing: border-box;
 }
+body {
+  margin:0;
+  font-family: "Times New Roman";
+}
+a {
+  text-decoration: none;
+}
+header {
+  height:80px;
+  width:100%;
+  background-color: rgba(52, 194, 210, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.logo {
+  width:117px;
+  margin-top:2px;
 
+}
+.header-left {
+  float:left;
+}
+.header-right {
+  float: right;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 8px 17px;
+  color: white;
+  display:block;
+  float: left;
+  transition: 0.9s;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.menu-icon {
+  color:white;
+  float: right;
+  font-size: 25px;
+  padding: 30px 0;
+  display: none;
+}
 .container {
-  width: 100%;
-  height: 100%;
-  padding: 0 5px;
-  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 15px;
+  margin:0 auto;
+}
+.fa {
+  margin-right:5px;
 }
 
 .top-wrapper {
-  padding: 200px 50px 300px 0;
-  background-image: url("https://data.1freewallpapers.com/detail/swimming-pool.jpg");
+  padding: 180px 0 100px 0;
+  background-image: url("images/background.jpg");
   background-size: cover;
-  color: #F8F8FF;
-  text-align: right;
+  color: white;
+  text-align: center;
 }
-
 .top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 60px;
+  opacity: 1;
+  font-size: 45px;
   letter-spacing: 5px;
+  margin-bottom: 10px;
+
+}
+h1  {
+  color:  #F5F5F5;
+  opacity: 0.9;
 }
 
-.top-wrapper p {
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
   opacity: 0.8;
-  margin-bottom: 3px;
-  padding-right: 70px;
-  font-style: oblique;
-  font-size: 45px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+  padding: 12px 36px;
+}
+
+.wahana-wrapper {
+  height: 1050px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.wahana {
+  float: left;
+  width: 25%;
+}
+
+.wahana-icon img{
+  width: 95%;
+  height: 180px;
+}
+
+.wahana-icon p {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.wahana:hover {
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+}
+
+.wahana-icon img:hover {
+  width: 100%;
+}
+.txt-contents:hover {
+  color: Black;
+  width: 100%;
+}
+.wahana-icon p:hover {
+  color: Black;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #55acee;
+  cursor: pointer;
+  box-shadow: 0 7px black;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.extratwo-wrapper {
+	text-align: center;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+}
+
+.section {
+	float: left;
+	width: 25%;
+	opacity: 0.7;
+}
+
+.section:hover {
+	position: relative;
+	top: -25px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.section-pict img{
+	width: 90%;
+	height: 200px;
+}
+
+.clear {
+	clear: left;
+}
+
+
+
+footer {
+  border-top: 1px solid #eee;
+  padding: 5px auto;
+  height:230px;
+  width:100%;
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.footer-top {
+  margin: 5px auto;
+  float: center;
+  text-align: center;
+}
+
+.footer-top a{
+  padding: 18px 17px;
+  color: white;
+  transition: 0.9s;
+}
+.footer-top a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-left {
+  text-align: center;
+  float:left;
+  padding-top:5px;
+}
+
+
+.footer-right {
+  float: right;
+  animation-name: credit;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+footer img {
+  width: 200px;
+  margin-top: 10px;
+
+}
+
+.footer-right h4 {
+  padding:0 25px;
+  display: block;
+}
+.footer-right p {
+  font-size: 12px;
+  padding:0 17px;
+  display: block;
+}
+
+@keyframes credit {
+  0%   {color: white;}
+  25%  {color: yellow;}
+  50%  {color: red;}
+  100% {color: black;}
+}
+
+
+
+/* For Tablet */
+@media all and (max-width: 1000px) {
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  .section {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphone */
+@media all and (max-width: 670px) {  
+  .lesson {
+    width: 100%;
+  }
 }
