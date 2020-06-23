@@ -265,7 +265,7 @@ footer img {
   margin-top: 5px;
   padding: 0 25px;
   font-size: 100%;
- 
+
 }
 .footer-right p {
   font-size: 75%;
@@ -278,55 +278,4 @@ footer img {
   25%  {color: yellow;}
   50%  {color: red;}
   100% {color: black;}
-}
-
-
-
-/* For Tablet */
-@media all and (max-width: 1000px) {
-  .header-right a{
-    line-height: 0;
-    padding: 0;
-    float: none;
-
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-  
-  .section {
-    width: 45%;
-    margin-bottom: 50px;
-  }
-
-  .wahana {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  .txt-contents{
-    font-size: 15px;
-  }
-
-}
-
-/* For Smartphone */
-@media all and (max-width: 670px) {  
-  .wahana {
-    width: 50%;
-  }
-  footer {
-    font-size: 60%;
-    padding: 10px 0;
-  }
-
-  footer img {
-  width: 125px;
-  }
-
-  .footer-right h4 {
-  margin-top: 25px;
-  padding: 0 2px;
- 
-}  
 }
