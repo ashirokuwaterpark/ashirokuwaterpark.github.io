@@ -47,7 +47,7 @@ header {
 }
 .container {
   max-width: 1400px;
-  padding: 0 15px;
+  padding: 0 5px;
   margin:0 auto;
 }
 .fa {
@@ -63,7 +63,7 @@ header {
 }
 .top-wrapper h1 {
   opacity: 1;
-  font-size: 320%;
+  font-size: 300%;
   letter-spacing: 5px;
   margin-bottom: 10px;
 
@@ -207,7 +207,7 @@ h1  {
 }
 
 .section-pict img{
-	width: 90%;
+	width: 95%;
 	height: 200px;
 }
 
@@ -244,7 +244,7 @@ footer {
   text-align: center;
   float:left;
   padding: 20px 0;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 
@@ -256,18 +256,19 @@ footer {
 }
 
 footer img {
-  width: 120px;
-  margin-top: 10px;
+  width: 160px;
+  margin-top: 5px;
 
 }
 
 .footer-right h4 {
-  margin-top: 10px;
+  margin-top: 5px;
+  padding: 0 25px;
   font-size: 100%;
  
 }
 .footer-right p {
-  font-size: 11px;
+  font-size: 75%;
   padding:0 17px;
   display: block;
 }
@@ -311,7 +312,21 @@ footer img {
 
 /* For Smartphone */
 @media all and (max-width: 670px) {  
-  .lesson {
-    width: 100%;
+  .wahana {
+    width: 50%;
   }
+  footer {
+    font-size: 76%;
+    padding: 10px 0;
+  }
+
+  footer img {
+  width: 130px;
+  }
+
+  .footer-right h4 {
+  margin-top: 20px;
+  padding: 0 2px;
+ 
+}  
 }
