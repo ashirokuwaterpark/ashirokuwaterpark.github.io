@@ -6,8 +6,11 @@
     float: none;
 
   }
+    .header-right {
+    display:none;
+  }
 
-  .heading h2 {
+  h2 {
     font-size: 20px;
   }
 
@@ -23,10 +26,12 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
-
-  .heading h2 {
-    font-size: 20px;
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
   }
+
   .txt-contents{
     font-size: 15px;
   }
